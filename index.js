@@ -27,10 +27,21 @@
 //  the context of a function and observe the change in
 //   the behavior of "this".
 
+// const user = {
+//     firstName: "Trevor",
+//     lastName: "Ariza",
+//     fullName: function() {
+//         console.log(this.firstName + " " +this.lastName)
+
+//     }
+    
+// }
+// user.fullName();
+
 const user = {
-    firstName: "Trevor",
-    lastName: "Ariza",
-    fullName: function() {
+    firstName: "Pau",
+    lastName: "Gasol",
+    fullName: () => {
         console.log(this.firstName + " " +this.lastName)
 
     }
